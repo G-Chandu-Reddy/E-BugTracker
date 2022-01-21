@@ -25,7 +25,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class StaffServiceImplTest {
 
     @Mock
-    IStaffRepository repository;
+    IStaffRepository repository
 
     @Mock
     AdminUtility utility;
